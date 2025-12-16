@@ -1,0 +1,31 @@
+{
+  "name": "axiomatic",
+  "displayName": "Axiomatic Theme",
+  "description": "A premium, high-end theme series with Axiomatic Dark and Axiomatic Light variants.",
+  "version": "0.1.0",
+  "publisher": "xcuzalex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xcuzalex/axiomatic-theme"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Axiomatic Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/axiomatic-dark-color-theme.json"
+      },
+      {
+        "label": "Axiomatic Light",
+        "uiTheme": "vs",
+        "path": "./themes/axiomatic-light-color-theme.json"
+      }
+    ]
+  }
+}
