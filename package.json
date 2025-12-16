@@ -4,6 +4,8 @@
   "description": "A premium, high-end theme series with Axiomatic Dark and Axiomatic Light variants.",
   "version": "0.1.0",
   "publisher": "xcuzalex",
+  "icon": "icon.png",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/xcuzalex/axiomatic-theme"
