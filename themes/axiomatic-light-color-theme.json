@@ -201,6 +201,16 @@
 	"tokenColors": [
 		{
 			"scope": [
+				"meta.attribute",
+				"meta.annotation",
+				"variable.annotation"
+			],
+			"settings": {
+				"foreground": "#50A14F"
+			}
+		},
+		{
+			"scope": [
 				"comment",
 				"punctuation.definition.comment"
 			],
@@ -258,7 +268,7 @@
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#0184BC",
+				"foreground": "#C18401",
 				"fontStyle": "italic"
 			}
 		},
